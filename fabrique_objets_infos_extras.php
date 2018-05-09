@@ -2,7 +2,7 @@
 
 /**
  *  Fichier généré par la Fabrique de plugin v6
- *   le 2018-05-09 17:00:06
+ *   le 2018-05-09 17:12:25
  *
  *  Ce fichier de sauvegarde peut servir à recréer
  *  votre plugin avec le plugin «Fabrique» qui a servi à le créer.
@@ -161,7 +161,7 @@ $data = array (
         'confirmer_supprimer_objet' => 'Confirmez-vous la suppression de cette information extra ?',
       ),
       'liaison_directe' => '',
-      'table_liens' => '',
+      'table_liens' => 'on',
       'vue_liens' => 
       array (
         0 => 'spip_immeubles',

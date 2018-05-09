@@ -9,7 +9,7 @@
 	schema="1.0.0" 
 >
 	<!--
-		Paquet généré le 2018-05-09 17:00:06
+		Paquet généré le 2018-05-09 17:12:25
 		(Vous pouvez bien entendu supprimer ces commentaires) 
 	-->
 
@@ -47,6 +47,8 @@
 
 	<pipeline nom="declarer_tables_objets_sql" inclure="base/objets_infos_extras.php" /> 
 	<pipeline nom="declarer_tables_interfaces" inclure="base/objets_infos_extras.php" /> 
+	<pipeline nom="declarer_tables_auxiliaires" inclure="base/objets_infos_extras.php" /> 
+	<pipeline nom="affiche_milieu" inclure="objets_infos_extras_pipelines.php" /> 
 	<pipeline nom="optimiser_base_disparus" inclure="objets_infos_extras_pipelines.php" /> 
 
 	<menu nom="objets_informations" titre="objets_information:titre_objets_informations" parent="menu_edition" icone="images/objets_information-16.png" action="objets_informations" /> 

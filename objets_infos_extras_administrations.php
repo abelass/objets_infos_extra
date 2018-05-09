@@ -51,7 +51,7 @@ function objets_infos_extras_upgrade($nom_meta_base_version, $version_cible) {
 	# );
 	# ...
 
-	$maj['create'] = array(array('maj_tables', array('spip_objets_informations')));
+	$maj['create'] = array(array('maj_tables', array('spip_objets_informations', 'spip_objets_informations_liens')));
 
 	include_spip('base/upgrade');
 	maj_plugin($nom_meta_base_version, $version_cible, $maj);
@@ -77,6 +77,7 @@ function objets_infos_extras_vider_tables($nom_meta_base_version) {
 	# sql_drop_table('spip_xx_liens');
 
 	sql_drop_table('spip_objets_informations');
+	sql_drop_table('spip_objets_informations_liens');
 
 	# Nettoyer les liens courants (le génie optimiser_base_disparus se chargera de nettoyer toutes les tables de liens)
 	sql_delete('spip_documents_liens', sql_in('objet', array('objets_information')));
