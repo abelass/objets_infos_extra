@@ -14,8 +14,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'objets_infos_extras_titre' => 'Infos extras pour objets',
 
 	// C
-	'cfg_exemple' => 'Exemple',
-	'cfg_exemple_explication' => 'Explication de cet exemple',
 	'cfg_titre_parametrages' => 'Paramétrages',
 
 	// T
