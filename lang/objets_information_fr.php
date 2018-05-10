@@ -12,8 +12,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'ajouter_lien_objets_information' => 'Ajouter cette information extra',
 
 	// C
-	'champ_descriptif_label' => 'Déscriptif',
-	'champ_titre_label' => 'Titre',
 	'confirmer_supprimer_objets_information' => 'Confirmez-vous la suppression de cette information extra ?',
 
 	// I
