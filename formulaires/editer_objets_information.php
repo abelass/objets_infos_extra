@@ -69,6 +69,12 @@ function formulaires_editer_objets_information_identifier_dist($id_objets_inform
  */
 function formulaires_editer_objets_information_charger_dist($id_objets_information = 'new', $retour = '', $associer_objet = '', $lier_trad = 0, $config_fonc = '', $row = array(), $hidden = '') {
 	$valeurs = formulaires_editer_objet_charger('objets_information', $id_objets_information, '', $lier_trad, $retour, $config_fonc, $row, $hidden);
+
+	// Publier directement
+	if ($id_objets_information == 'oui') {
+		$valeurs['_hidden'] .= '<input type="hidden" name="statut" value="publie" />';
+	}
+
 	return $valeurs;
 }
 
@@ -139,9 +145,9 @@ function formulaires_editer_objets_information_traiter_dist($id_objets_informati
 
 		if ($objet and $id_objet and autoriser('modifier', $objet, $id_objet)) {
 			include_spip('action/editer_liens');
-			
+
 			objet_associer(array('objets_information' => $id_objets_information), array($objet => $id_objet));
-			
+
 			if (isset($retours['redirect'])) {
 				$retours['redirect'] = parametre_url($retours['redirect'], 'id_lien_ajoute', $id_objets_information, '&');
 			}
