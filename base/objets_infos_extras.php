@@ -45,7 +45,7 @@ function objets_infos_extras_declarer_tables_objets_sql($tables) {
 	$tables['spip_objets_informations'] = array(
 		'type' => 'objets_information',
 		'principale' => 'oui',
-		'table_objet_surnoms' => array('objetsinformation'), // table_objet('objets_information') => 'objets_informations' 
+		'table_objet_surnoms' => array('objetsinformation'), // table_objet('objets_information') => 'objets_informations'
 		'field'=> array(
 			'id_objets_information' => 'bigint(21) NOT NULL',
 			'titre'              => 'varchar(255) NOT NULL DEFAULT ""',
@@ -106,6 +106,7 @@ function objets_infos_extras_declarer_tables_auxiliaires($tables) {
 			'id_objet'           => 'bigint(21) DEFAULT "0" NOT NULL',
 			'objet'              => 'VARCHAR(25) DEFAULT "" NOT NULL',
 			'vu'                 => 'VARCHAR(6) DEFAULT "non" NOT NULL',
+			'rang_lien'          => 'int(4) NOT NULL DEFAULT "0"',
 		),
 		'key' => array(
 			'PRIMARY KEY'        => 'id_objets_information,id_objet,objet',
