@@ -13,15 +13,6 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 	return;
 }
 
-
-/*
- * Un fichier de pipelines permet de regrouper
- * les fonctions de branchement de votre plugin
- * sur des pipelines existants.
- */
-
-
-
 /**
  * Ajout de contenu sur certaines pages,
  * notamment des formulaires de liaisons entre objets
@@ -36,7 +27,7 @@ function objets_infos_extras_affiche_milieu($flux) {
 	$e = trouver_objet_exec($flux['args']['exec']);
 	$objets_cibles = lire_config('objets_infos_extras/objets', array());
 
-	// objets_informations sur les objets choisis
+	// Objets_informations sur les objets choisis.
 	if (!$e['edition'] and in_array($e['table_objet_sql'], $objets_cibles)) {
 		$texte .= recuperer_fond('prive/objets/editer/liens', array(
 			'table_source' => 'objets_informations',
@@ -55,8 +46,6 @@ function objets_infos_extras_affiche_milieu($flux) {
 
 	return $flux;
 }
-
-
 
 
 /**
