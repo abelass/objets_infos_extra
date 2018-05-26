@@ -7,13 +7,11 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
-	// C
-	'champ_chambres_objets' => 'Activer l’ajout d\'informations extras sur les contenus :',
-
 	// O
 	'objets_infos_extras_titre' => 'Infos extras pour objets',
 
 	// C
+	'champ_chambres_objets' => 'Activer l’ajout d\'informations extras sur les contenus :',
 	'cfg_titre_parametrages' => 'Paramétrages',
 
 	// T
