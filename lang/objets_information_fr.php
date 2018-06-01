@@ -12,6 +12,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'ajouter_lien_objets_information' => 'Ajouter cette information extra',
 
 	// C
+	'champ_quantite_label' => 'Quantité',
 	'confirmer_supprimer_objets_information' => 'Confirmez-vous la suppression de cette information extra ?',
 
 	// I

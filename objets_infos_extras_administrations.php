@@ -35,6 +35,7 @@ function objets_infos_extras_upgrade($nom_meta_base_version, $version_cible) {
 
 	$maj['create'] = array(array('maj_tables', array('spip_objets_informations', 'spip_objets_informations_liens')));
 	$maj['1.0.1'] = array(array('maj_tables', array('spip_objets_informations_liens')));
+	$maj['1.0.2'] = array(array('maj_tables', array('spip_objets_informations_liens')));
 
 	include_spip('base/upgrade');
 	maj_plugin($nom_meta_base_version, $version_cible, $maj);
