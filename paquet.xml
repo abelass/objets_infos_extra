@@ -54,5 +54,6 @@
 	<menu nom="objets_informations" titre="objets_information:titre_objets_informations" parent="menu_edition" icone="images/objets_information-16.png" action="objets_informations" />
 
 	<chemin path="squelettes" />
+	<chemin path="" />
 
 </paquet>
