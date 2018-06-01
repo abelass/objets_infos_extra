@@ -114,6 +114,5 @@ function objets_infos_extras_declarer_tables_auxiliaires($tables) {
 			'KEY id_objets_information' => 'id_objets_information',
 		)
 	);
-
 	return $tables;
 }
