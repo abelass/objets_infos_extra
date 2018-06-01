@@ -105,7 +105,7 @@ function objets_infos_extras_declarer_tables_auxiliaires($tables) {
 			'id_objets_information' => 'bigint(21) DEFAULT "0" NOT NULL',
 			'id_objet'           => 'bigint(21) DEFAULT "0" NOT NULL',
 			'objet'              => 'VARCHAR(25) DEFAULT "" NOT NULL',
-			'quantite'           => 'int(11) NOT NULL DEFAULT "1"',
+			'quantite'           => 'int(11) NOT NULL DEFAULT "0"',
 			'vu'                 => 'VARCHAR(6) DEFAULT "non" NOT NULL',
 			'rang_lien'          => 'int(4) NOT NULL DEFAULT "0"',
 		),
