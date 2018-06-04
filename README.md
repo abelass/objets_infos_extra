@@ -1,4 +1,4 @@
 # Infos extras pour objets
 Ajouter des infos extras à un objet
 
-## gérer la quantité 
+Permet d'enrichir d'aures objets, possibilité de matte une quantité sur une liaison
