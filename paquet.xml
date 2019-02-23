@@ -8,37 +8,13 @@
 	documentation="https://github.com/abelass/objets_infos_extra"
 	schema="1.0.2"
 >
-	<!--
-		Paquet généré le 2018-05-09 17:12:25
-		(Vous pouvez bien entendu supprimer ces commentaires)
-	-->
 
 	<nom>Infos extras pour objets</nom>
 	<!-- Des informations extras à vos objets -->
 
-	<!-- cette balise peut être présente plusieurs fois s'il y a plusieurs auteurs -->
 	<auteur>Rainer Müller</auteur>
 
 	<licence>GNU/GPL</licence>
-
-	<!--
-		Exemple de commandes
-		* dependances
-		<necessite nom="saisies" compatibilite="[2.4.0;]" />
-		<utilise nom="saisies" compatibilite="[2.4.0;]" />
-		<lib nom="simplehtmldom" lien="http://chemin_vers_archive.zip" />
-		* pipelines
-		<pipeline nom="autoriser" inclure="objets_infos_extras_autorisations.php" />
-		<pipeline nom="insert_head" inclure="objets_infos_extras_pipelines.php" />
-		* declarer un pipeline
-		<pipeline nom="mon_pipeline" action="" />
-		* parents de menus de SPIP :
-				menu_accueil (à éviter), menu_edition, menu_publication,
-				menu_activite, menu_squelette, menu_administration, menu_configuration
-		<menu nom="objets_infos_extras" titre="objets_infos_extras:objets_infos_extras_titre" parent="menu_edition"  icone="images/objets_infos_extras-16.png" />
-		* parents d'onglets... configuration, plugins, statistiques, ...
-		<onglet nom="objets_infos_extras" titre="objets_infos_extras:objets_infos_extras_titre" parent="configuration" icone="images/objets_infos_extras-24.png" />
-	-->
 
 	<necessite nom="saisies" compatibilite="[2.4.0;]" />
 
